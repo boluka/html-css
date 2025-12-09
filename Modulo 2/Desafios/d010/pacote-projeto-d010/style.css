@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+@media (min-width: 800px){
+    main {
+        width: 700px;
+        display: block;
+        margin: auto;
+    }
+}
+@media (max-width: 550px){
+    main {
+        
+        margin: 0px 70px;
+    }
+    .customArticle > picture > img.ajuste01  {
+       display: block;
+       width: 300px;
+       margin: auto;
+    }   
+    .customArticle > picture > img.ajuste02 {
+        width: 95%;
+        display: block;
+        margin: auto;
+
+    }
+
+}
+@media (max-width: 709px){
+    .customArticle .videoAndroid {
+        width: 100%;
+    } 
+}
+
+body {
+    background-color: rgb(121, 187, 121);
+    margin: 0px;
+}
+header {
+    color: white;
+    background-image: linear-gradient(180deg, rgb(106, 161, 106), #2c4d33);
+    ;
+    padding-bottom: 10px;
+    
+}
+header > h1 {
+    text-align: center;
+    font-family: 'Arial Narrow', Arial;
+    font-size: 1.5em;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-shadow:  1px 1px 10px black;
+}
+header > h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.616);
+}
+.customArticle .sombraVerde {
+    background-image: linear-gradient(90deg, rgb(171, 255, 171), white)
+}
+.menuPrincipal {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, Arial;
+    font-size: 0.9em;
+    padding: 0.5em;
+    border-radius: 5px 5px;
+}
+.menuPrincipal:hover {
+    background-color: #2c4d33;
+}
+main {
+    background-color: white;
+    margin: 0px 70px ;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.customArticle > h3 {
+    margin: 0;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color:rgb(48, 97, 48);
+    padding: 5px 10px;
+}
+.customArticle > p {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 10px;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-indent: 20px;
+    text-align: justify;
+}
+.customArticle > img {
+    display: block;
+    margin: auto;
+}
+.customArticle .videoAndroid {
+    display: block;
+    margin: auto;
+}
+.customArticle > picture > img {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+.tabelaAndroid {
+    background-color: #a2fcb6;
+    border-radius: 5px;
+    margin: 20px 10px;
+    box-shadow: 1px 0px 8px black;
+    padding-bottom: 10px;
+}
+.tabelaAndroid h2{
+    font-size: 1.2em;
+    font-family: Arial , Helvetica, sans-serif;
+    margin: 0;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    background-color: #54b168;
+    color: white;
+}
+.tabelaAndroid p {
+    font-family: sans-serif;
+    text-indent: 1em;
+    margin: 10px;
+    line-height: 1.5em;
+}
+.tabelaAndroid article {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tabelaAndroid article section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    flex-grow: 1;
+}
+footer {
+    background-color: #2c4d33;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Helvetica, Helvetica, sans-serif;
+    font-weight: 600;
+}

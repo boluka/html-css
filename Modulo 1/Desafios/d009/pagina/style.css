@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+div {
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+}
+h3,a {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}

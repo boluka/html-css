@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    
+}
+img, a{
+    width: 250px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+p {
+    font-size: small;
+    text-align: center;
+    color: aliceblue; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.thumbs{
+    display: inline-block;
+    
+}
