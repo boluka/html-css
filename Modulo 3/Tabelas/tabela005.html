@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de tabelas</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+        width: 500px;
+        border-collapse: collapse;
+    }
+    caption {
+        font-size: 1.3em;
+        font-weight: bolder;
+        padding: 8px;
+    }
+    th, td {
+        border: 1px solid black;
+        text-transform: capitalize;
+        padding: 8px;
+        text-align: center;
+    }
+    col.destaque {
+        background-color: chartreuse;
+    }
+    col.cgrupo {
+        background-color: red;
+    }
+</style>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table> 
+        <!-- o colgroup facilita na seleção da coluna inteira para aplicar estilos-->
+        <colgroup>
+            <col class="destaque">
+            <col class="cgrupo" span="2">
+            <col>
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
